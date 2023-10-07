@@ -71,3 +71,29 @@ nav ul li a:hover {
     color: rgb(247, 182, 0);
     background: rgb(255, 255, 255);
 }
+
+/* Configurações container
+________________________________________________________________________________________________________*/
+/* Configurações do id container que está dentro da tag main */
+#container {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+/* Configurações do id caixa1 que esta dentro do id container */
+section#caixa1 {
+    float:  left;
+    width: 650px;
+    background: rgb(255, 255, 255);
+    border: 1px solid red;
+}
+
+section#caixa2 {
+    float: right;
+    width: 350px;
+}
+
+section aside {
+    padding: 15px;
+}
+
