@@ -1,0 +1,73 @@
+/* Configurações gerais
+________________________________________________________________________________________________________*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: rgb(230, 230, 230);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+/* Configurações header
+________________________________________________________________________________________________________*/
+/* Configurações da tag header que está dentro da tag main */
+header {
+    text-align: center;
+    height: 140px;
+    background: rgb(247, 182, 0);
+}
+
+/* Configurações da tag h1 que está dentro do id logo */
+header #logo h1{
+    font-size: 2.5em;
+    color: rgb(255, 255, 255);
+    margin: 0px 0 30px 0;
+    padding-top: 15px;
+}
+
+/* Configurações da tag span que está dentro do id logo */
+header #logo span {
+    color: rgb(78, 78, 78);
+}
+
+/* Configurações da tag nav que está dentro da tag header */
+nav {
+    width: 500px;
+    margin: 0 auto;
+}
+
+/* Configurações da tag ul que está dentro da tag nav */
+nav ul {
+    float: left;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Configurações da tag li que está dentro da tag ul */
+nav ul li {
+    float: left;
+}
+
+/* Configurações da tag a que está dentro da tag li */
+nav ul li a:link,
+nav ul li a:visited,
+nav ul li a:active {
+    padding: 6px 20px 6px 20px;
+}
+nav ul li a:hover {
+    color: rgb(247, 182, 0);
+    background: rgb(255, 255, 255);
+}
