@@ -78,22 +78,43 @@ ________________________________________________________________________________
 #container {
     width: 1050px;
     margin: 0 auto;
+    margin-top: 10px;
 }
 
 /* Configurações do id caixa1 que esta dentro do id container */
 section#caixa1 {
     float:  left;
     width: 650px;
-    background: rgb(255, 255, 255);
-    border: 1px solid red;
 }
 
+/* Configurações da tag aside que esta dento dos id caixa1 e caixa2 */
+section#caixa1 aside {
+    margin-top: 20px;
+    padding: 15px;
+    background: rgb(255, 255, 255);
+}
+
+/* Configurações do id titulo que está dentro da tag aside */
+#caixa1 aside #titulo {
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(165, 164, 164);
+}
+
+/* Cofigurações da tag h2 que está dentro do id titulo */
+aside #titulo h2 {
+    color: rgb(247, 182, 0);
+}
+
+/* Cofigurações da tag p que está dentro do id titulo */
+aside #titulo p {
+    font-size: 0.8em;
+}
+
+/* Confihurações do id caixa2 que está dentro do id container */
 section#caixa2 {
     float: right;
     width: 350px;
+    border: 1px solid red;
+    background: rgb(255, 255, 255);
 }
-
-section aside {
-    padding: 15px;
-}
-
