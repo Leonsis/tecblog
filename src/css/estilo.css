@@ -118,3 +118,14 @@ section#caixa2 {
     border: 1px solid red;
     background: rgb(255, 255, 255);
 }
+
+/**/
+section#caixa2 #texto {
+    padding: 10px;
+}
+
+section#caixa2 #texto h3 {
+    border: 1px solid red;
+    padding: 5px;
+    margin-bottom: 5px;
+}
