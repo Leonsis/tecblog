@@ -78,7 +78,6 @@ ________________________________________________________________________________
 #container {
     width: 1050px;
     margin: 0 auto;
-    margin-top: 10px;
 }
 
 /* Configurações do id caixa1 que esta dentro do id container */
@@ -87,9 +86,16 @@ section#caixa1 {
     width: 650px;
 }
 
-/* Configurações da tag aside que esta dento dos id caixa1 e caixa2 */
-section#caixa1 aside {
-    margin-top: 20px;
+/* Confihurações do id caixa2 que está dentro do id container */
+section#caixa2 {
+    float: right;
+    width: 350px;
+    border: 1px solid red;
+}
+
+/* Configurações da tag aside que esta dentro da tag section */
+section aside {
+    margin-top: 15px;
     padding: 15px;
     background: rgb(255, 255, 255);
 }
@@ -102,30 +108,28 @@ section#caixa1 aside {
 }
 
 /* Cofigurações da tag h2 que está dentro do id titulo */
-aside #titulo h2 {
+#caixa1 aside #titulo h2 {
     color: rgb(247, 182, 0);
 }
 
 /* Cofigurações da tag p que está dentro do id titulo */
-aside #titulo p {
+#caixa1 aside #titulo p {
     font-size: 0.8em;
 }
 
-/* Confihurações do id caixa2 que está dentro do id container */
-section#caixa2 {
-    float: right;
-    width: 350px;
-    border: 1px solid red;
-    background: rgb(255, 255, 255);
+/* Configurações da tag aside que esta dento dos id caixa1 e caixa2 */
+section#caixa2 aside {
+    padding: 5px;
 }
 
-/**/
+/* Configurações do id texto que esta dentro da tag saction */
 section#caixa2 #texto {
     padding: 10px;
 }
 
+/* Configurções da tag h3 que esta dentro d id texto */
 section#caixa2 #texto h3 {
-    border: 1px solid red;
     padding: 5px;
     margin-bottom: 5px;
+    border: 1px solid red;
 }
